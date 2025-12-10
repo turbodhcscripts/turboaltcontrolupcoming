@@ -89,7 +89,7 @@ local function Drop(Type)
 		while CmdSettings["Dropping"] do
 			local args = {
 				[1] = "DropMoney",
-				[2] = "10000"
+				[2] = "15000"
 			}
 			game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
 			wait(2.5)
